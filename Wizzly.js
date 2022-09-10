@@ -20,6 +20,17 @@ var cli = new Discord.Client({autoReconnect:true});
 
 var wizzlykambek = "";
 
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Network On')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 
 // COLORS
 var bred, red, blue, green, yellow, l4cyan, l7yellow, purple, white, lightred, lightgreen, lightpurple, redblink, swhite, whitebolado, underred, blinking, reset;
