@@ -1,0 +1,51 @@
+{
+
+    "token": "MTAxNzExMDU0NDkzNjg4MjIwNg.GQIs4a.WH9w2cfuamh-quFeGalCCIvSlCErIc45aPZ9sU",
+
+    "prefix": ".",
+
+    "multilang": {
+
+        "languages": ["English", "Indonesia"]
+
+    },
+
+    "bot": {
+
+        "description": "--> .help",
+
+        "type": "STREAMING",
+
+        "url": "https://twitch.tv/DemonV3"
+
+    },
+
+    "admins": ["955528306843865168", "899720970242252801"],
+
+    "channels": {
+
+        "logs": "1017150981835870259",
+
+        "error": "1017150981835870259"
+
+    },
+
+    "methods": {
+
+    	"layer7": ["CF_UAM", "JS_PROXY", "CLOUD_JS", "CLOUD_UAM", "SOCKETS", "HTTP_GET", "HTTP_PPS", "HTTP_GHP", "HTTP_HEAD", "HTTP_HEX", "HTTP_MAX", "HTTP_POST", "HTTP_FLOW", "HTTP_NULL", "HTTP_RAND", "HTTP_SKULL", "HTTP_COOKIE", "COLLAPSE"],    	"layer4": ["ICMP_FLOOD", "ECHO_FLOOD", "UDP_HEX", "UDP_MIX", "UDP_NOSPF", "UDP_RAID", "UDP_RAND", "UDP_NULL", "UDP_WLST", "BLAZING", "UDP_BPSS", "UDP_OVH", "TCP_UDP", "TCP_KILL", "TCP_ACK", "TCP_PSH", "TCP_SYN", "TCP_RAND", "TELNET", "TCP_VOX", "TCP_XMAS", "method2"]
+
+    },
+
+    "servers": {
+
+    	"servidores": ["Simple", "Normal", "Advanced"]
+
+  	},
+
+    "blacklist": {
+
+        "hosts": ["1.2.3.4", "1.3.3.7", "127.0.0.1", "192.168.0.1"]
+
+    }
+
+}
